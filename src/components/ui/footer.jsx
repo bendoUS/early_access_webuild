@@ -125,37 +125,9 @@ function Footer() {
               </AlertDialogContent>
             </AlertDialog>
 
-            <AlertDialog>
-              <AlertDialogTrigger asChild>
-                <button className="text-sm text-muted-foreground hover:text-foreground transition-colors cursor-pointer">
-                  Privacy
-                </button>
-              </AlertDialogTrigger>
-              <AlertDialogContent>
-                <AlertDialogHeader>
-                  <AlertDialogTitle>Privacy Policy</AlertDialogTitle>
-                  <AlertDialogDescription className="text-left space-y-4 mt-4">
-                    <div>
-                      <h4 className="font-semibold mb-2">1. Data Collected</h4>
-                      <p className="text-sm">We collect data necessary for the operation of our service: email address, name, Shopify store information.</p>
-                    </div>
-                    <div>
-                      <h4 className="font-semibold mb-2">2. Use of Data</h4>
-                      <p className="text-sm">Your data is used solely to provide our services and improve your experience. We never sell your data to third parties.</p>
-                    </div>
-                    <div>
-                      <h4 className="font-semibold mb-2">3. Security</h4>
-                      <p className="text-sm">We implement all necessary technical and organizational measures to protect your personal data.</p>
-                    </div>
-                    <div>
-                      <h4 className="font-semibold mb-2">4. Your Rights</h4>
-                      <p className="text-sm">In accordance with GDPR, you have the right to access, rectify, delete, and port your data. Contact us at hello@getwebuildai.com to exercise these rights.</p>
-                    </div>
-                  </AlertDialogDescription>
-                </AlertDialogHeader>
-                <AlertDialogCancel>Close</AlertDialogCancel>
-              </AlertDialogContent>
-            </AlertDialog>
+            <Link to="/privacy" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+              Privacy
+            </Link>
 
             <AlertDialog>
               <AlertDialogTrigger asChild>

@@ -41,7 +41,7 @@ function Header() {
               </div>
 
           {/* Navigation */}
-          <nav className="hidden md:flex items-center gap-6">
+          <nav className="hidden items-center gap-6">
             <Link to="/#features" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
               What's inside
             </Link>
